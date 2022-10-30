@@ -1,0 +1,14 @@
+.date-comp {
+  border: 2px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  width: 21.8rem;
+  font-size: 2.3rem;
+}
+.calendar-comp {
+  width: fit-content;
+  position: absolute;
+}
