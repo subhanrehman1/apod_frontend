@@ -11,10 +11,7 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
-.apod-image {
-  width: 75vw;
-  height: 80vh;
-}
+
 .top-comp {
   display: flex;
   justify-content: space-between;

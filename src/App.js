@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 import CalendarComp from "./components/calendar/CalendarComp";
+import Media from "./components/media/Media";
 function App() {
   const [date, setDate] = useState(new Date());
   const [data, setData] = useState(null);
@@ -47,7 +48,7 @@ function App() {
           <div className="load">Loading...</div>
         ) : (
           <div>
-            <img className="apod-image" alt="Planetary Image" src={data?.url} />
+            <Media data={data} />
           </div>
         )}
         {!loading && <div className="apod-explain">{data?.explanation}</div>}
