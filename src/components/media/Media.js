@@ -6,7 +6,7 @@ const Media = ({ data }) => {
       {data?.media_type === "image" ? (
         <img className="apod-image" alt="Planetary Image" src={data?.url} />
       ) : (
-        <iframe height="600vh" width="1100vw" src={data.url}></iframe>
+        <iframe height="600vh" width="1100vw" src={data?.url}></iframe>
       )}
     </div>
   );
